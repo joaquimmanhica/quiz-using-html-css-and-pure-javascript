@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoEstudo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="overlay" id="overlay"></div>
+<div class="modal" id="modal">
+  <div class="div-dados diva-certos">
+    <img src="./img/javascript-frameworks-not-css.svg">
+    <span>Fim do Questionario!!</span>
+    <button class="btn" id="btn-restart">Reiniciar</button>
+    <button class="btn" id="btn-close">Fechar</button>
+  </div>
+</div>
+    <div id="flex-container">
+    
+        <div class="flex-container-1 topo">
+          <div class="container">
+            <div class="progressbar center">
+                <div class="half-circle"></div>
+                <div class="half-circle"></div>
+                <div class="half-circle-top"></div>
+                <div class="progressbar-circle center">
+                    0%
+                </div>
+            </div>
+        </div>
+                <div class="div-dados diva-certos">
+                  <img src="./img/right-svgrepo-com.svg">
+                  <span class="spanitem acertos">0</span>
+                </div>
+                <div class="div-dados div-erros">
+                  <img src="./img/wrong-svgrepo-com.svg">
+                  <span class="spanitem erros">0</span>
+                </div>
+                <div class="div-dados div-total">
+                  <img src="./img/question-svgrepo-com.svg">
+                  <span class="spanitem total">0</span>
+                </div>
+        </div>
+        <div class="flex-container-1 questoes">
+           <p id="questao">Questoes</p>
+        </div>
+        <div class="flex-container-1 opcoes">
+           <button class="btn btn-op op1">op1</button>
+           <button class="btn btn-op op2">op2</button>
+           <button class="btn btn-op op2">op3</button>
+           <button class="btn btn-op op2">op4</button>
+        </div>
+    </div>
+    <script type="module" src="./Quiz.js"></script>
+</body>
+</html>
