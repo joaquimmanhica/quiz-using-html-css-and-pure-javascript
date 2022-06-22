@@ -1,7 +1,7 @@
-#https://github.com/joaquimmanhica/quiz-usando-html-css-e-javascript-puro/new/master?readme=1
-# quiz-usando-html-css-e-javascript-puro
-aplicação Quiz simples usando html, css e javascript. este quiz e composto por uma barra de progresso circular, modal (janela popUp), foram nele aplicados conceitos de flexbox. Aproveite!!
+#link projeto no github ---> https://github.com/joaquimmanhica/quiz-usando-html-css-e-javascript-puro/new/master?readme=1
+Simple quiz application using html, css and javascript. 
+this quiz consists of a circular and modal progress bar (popUp window), where flexbox concepts were applied. Appreciate!!
 
-como executo ele no meu browser?
--devido as politicas de cors, este projeto so pode ser executado do lado servidor(server-side)
-![quiz](https://user-images.githubusercontent.com/38292962/174914684-acfbfdff-d82b-4314-b5d6-e5b604651f25.jpg)
+how do i run it in my browser?
+Due to cors policies, this project can only be run on the server side on the local machine, but you can click the link below to see the app preview
+link preview ---> https://codepen.io/joaquim-manhica/pen/GRQbWvP
